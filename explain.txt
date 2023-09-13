@@ -1,0 +1,25 @@
+Browser 
+    Render Engine (HTML + CSS)
+    Javascript Engine (Javascript)
+
+    Chrome => V8
+    Firefox => Spider Monkey
+        ECMA Script (ES)
+            ES 1 , ES2 ES3 ES5(fundamentals) ES6 (Advance)
+
+    in-build features
+        function 
+        class
+        object
+
+    char ==> "Three Technology"
+    number => 10 10.6 -10 +10
+
+    code check output of code
+        console.log(message)
+
+    committing
+        // commit
+        /*
+            multi line
+        */
