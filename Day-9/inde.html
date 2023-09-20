@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day-4</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <section class="data-tables">
+      <section class="data-tables-header">
+        <div>
+          <label for="">Show</label>
+          <select id="per-page-count">
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="30">30</option>
+            <option value="40">40</option>
+            <option value="50">50</option>
+          </select>
+        </div>
+        <input type="search" placeholder="search data" />
+      </section>
+      <table class="data-tables-main">
+        <thead>
+          <tr>
+            <th width="10%">Sr No</th>
+            <th width="15%">First Name</th>
+            <th width="15%">Last Name</th>
+            <th width="30%">Email</th>
+            <th width="15%">Gender</th>
+            <th width="15%">Ip Address</th>
+          </tr>
+        </thead>
+        <tbody class="tbody"></tbody>
+      </table>
+      <section class="data-tables-footer">
+        <p>Showing page 1 of 16</p>
+        <ul class="pages">
+          <li class="prev-page">Pre</li>
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+          <li>6</li>
+          <li class="next-page">Next</li>
+        </ul>
+      </section>
+    </section>
+    <script src="/js/data.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
